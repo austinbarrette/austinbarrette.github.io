@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Data Visualizations</title>
+    <link rel="stylesheet" href="Web.css">
+
+<!-- Bring in our bootstrap stylesheet -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<!--NAVBAR-->
+<body>
+<div class = "wrapper">
+    <nav>
+        <ul>
+        <!--Link to HomePage / Index-->
+        <li><a href= "index.html" target="_blank">Home</a></li>
+        <!--link to the Plots dropdown-->
+        <div class="dropdown">
+            <button class="dropbtn">Plots
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="fig1.html" target="_blank">Temperature</a>
+                <a href="fig2.html" target="_blank">Humidity</a>
+                <a href="fig3.html" target="_blank">Cloudiness</a>
+                <a href="fig4.html" target="_blank">Wind Speed</a>
+            </div>
+            </div>
+        <!--Link to Comparison-->
+        <li><a href= "comparison.html" target="_blank">Comparisons</a></li>
+        <!--Link to data page-->
+        <li><a href= "data.html" target="_blank">Data</a></li>
+        </ul>
+    </nav>
+
+
+<!-- This is the Header to my landing page-->
+<h1>Summary: Latitude vs. X</h1>
+<!-- This is the example picture-->
+<img src = "C:\Users\austin\Desktop\HTML\11-Web\Homework\Instructions\Resources\assets\images\Fig1.png" width = "200"  height = "200">
+
+<p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled the data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+<br>
+<p>After assembling this dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis as well as explanations and description of any trends and correlations witnessed.</p>
+
+
+<body>
+<ul>
+<li><!-- link to Visualizaton Page #1-->
+<a href= "fig1.html" target="_blank">
+<strong>vs Max Temperature</strong><br><img src = "C:\Users\austin\Desktop\HTML\11-Web\Homework\Instructions\Resources\assets\images\Fig1.png" width = "100"  height = "100">
+</a></li>
+<li><!-- link to Visualizaton Page #2-->
+<a href= "fig2.html" target="_blank">
+<strong>vs Max Humidity</strong><br><img src = "C:\Users\austin\Desktop\HTML\11-Web\Homework\Instructions\Resources\assets\images\Fig2.png" width = "100"  height = "100">
+</a></li>
+<li><!-- link to Visualizaton Page #3-->
+<a href= "fig3.html" target="_blank">
+<strong>vs Max Cloudiness</strong><br><img src = "C:\Users\austin\Desktop\HTML\11-Web\Homework\Instructions\Resources\assets\images\Fig3.png" width = "100"  height = "100">
+</a></li>
+<li><!-- link to Visualizaton Page #4-->
+<a href= "fig4.html" target="_blank">
+<strong>vs Wind Speed</strong><br><img src = "C:\Users\austin\Desktop\HTML\11-Web\Homework\Instructions\Resources\assets\images\Fig4.png" width = "100"  height = "100">
+</a></li>
+</ul>
+</body>
+</div>
+
+</html>
